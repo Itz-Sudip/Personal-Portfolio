@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-ink font-body antialiased transition-colors duration-300;
+}
+
+html.dark body {
+  @apply bg-ink text-[#E7EAF0];
+}
+
+::selection {
+  background: #e3a54855;
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Section label — mono utility text, used like a component tag on a schematic */
+.eyebrow {
+  @apply font-mono text-xs tracking-[0.2em] uppercase text-signal;
+}
+
+/* Signature element: the circuit rail that tracks scroll position on desktop */
+.circuit-rail {
+  position: fixed;
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 40;
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .circuit-rail {
+    display: flex;
+  }
+}
+
+.circuit-rail .rail-line {
+  position: absolute;
+  left: 5px;
+  top: 6px;
+  bottom: 6px;
+  width: 2px;
+  background: linear-gradient(to bottom, transparent, #8a93a333, transparent);
+}
+
+.circuit-node {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  border: 2px solid #8a93a366;
+  background: transparent;
+  transition: all 0.35s ease;
+}
+
+.circuit-node.active {
+  border-color: #e3a548;
+  background: #e3a548;
+  box-shadow: 0 0 0 4px #e3a54822;
+}
+
+/* Focus visibility, kept crisp for keyboard users */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #e3a548;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
