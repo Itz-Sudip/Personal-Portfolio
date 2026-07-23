@@ -38,9 +38,6 @@ export default function Contact() {
   return (
     <section id="contact" className="bg-surfaceLight/50 px-6 py-24 dark:bg-surfaceDark/40 lg:pl-32">
       <div className="mx-auto max-w-6xl">
-        <p className="eyebrow mb-3" data-aos="fade-up">
-          08 // Contact
-        </p>
         <h2 className="font-display text-3xl font-bold sm:text-4xl" data-aos="fade-up">
           Let's Build Something
         </h2>

@@ -6,7 +6,7 @@ export const profile = {
   location: 'Kalidan, Panskura, Purba Medinipur, West Bengal - 721131',
   email: 'palsudipkumar3@gmail.com',
   phone: '+91 9339951850',
-  resumeUrl: '/Sudip_Kumar_Pal_Resume.pdf',
+  resumeUrl: '/Sudip_Resume_ATS.pdf',
   photoUrl: '/profile.png',
   socials: {
     github: 'https://github.com/Itz-Sudip',
@@ -76,7 +76,7 @@ export const experience = [
     company: "Walmart",
     duration: 'Jul 2026',
     points: [
-      'Engineered enterprise microservices within a simulated JPMorgan Chase environment using Java, Spring Boot, and Maven to handle high-profile financial operations','Integrated Apache Kafka messaging infrastructure into a Spring application to establish secure, high-speed asynchronous data streams for transaction processing.',
+      'Utilized Python and SQL to ingest, preprocess, and structure large volumes of disparate data into functional database schemas.','Designed scalable software architecture using UML modeling and structured relational databases using SQL to meet rigorous business requirements.'
     ],
   },
 ]
@@ -134,26 +134,17 @@ export const projects = [
       'A responsive personal portfolio featuring About Me, Projects, and Contact sections, with dark mode toggle, interactive animations, and GitHub integration.',
     tech: ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind CSS'],
     github: 'https://github.com/Itz-Sudip', 
-    live: '🔧 https://your-portfolio-url.com', 
+    live: 'https://personal-portfolio-orcin-psi.vercel.app/', 
   },
-  {
-    id: 'proj-2',
-    title: 'Medidel',
-    description:
-      'A Medicine delivery app, integrated payment page using stripe, having a admin panel',
-    tech: ['React', 'Express', 'MongoDB', 'Node JS','Stripe'],
-    github: 'https://github.com/Itz-Sudip',
-    live: '🔧 https://project-two-demo.vercel.app',
-  },
-  {
-    id: 'proj-3',
-    title: 'More Projects coming soon',
-    description:
-      'Currently working on exciting new projects. Stay tuned!',
-    tech: ['in progress'],
-    github: '#projects',
-    live: '#projects',
-  },
+  // {
+  //   id: 'proj-2',
+  //   title: 'Medidel',
+  //   description:
+  //     'A Medicine delivery app, integrated payment page using stripe, having a admin panel',
+  //   tech: ['React', 'Express', 'MongoDB', 'Node JS','Stripe'],
+  //   github: 'https://github.com/Itz-Sudip',
+  //   live: '#home',
+  // },
 ]
 
 export const cocurricular = [
