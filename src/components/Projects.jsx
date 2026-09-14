@@ -17,7 +17,7 @@ export default function Projects() {
             data-aos-delay={i * 100}
             className="group flex flex-col rounded-xl border border-muted/15 p-6 transition-all hover:-translate-y-1 hover:border-signal/50"
           >
-            <h3 className="font-display text-lg font-semibold">{project.title}</h3>
+            <h3 className="font-display text-lg font-semibold text-sky-300">{project.title}</h3>
             <p className="mt-2 flex-1 text-sm text-muted">{project.description}</p>
 
             <div className="mt-4 flex flex-wrap gap-2">
