@@ -136,15 +136,33 @@ export const projects = [
     github: 'https://github.com/Itz-Sudip', 
     live: 'https://personal-portfolio-orcin-psi.vercel.app/', 
   },
-  // {
-  //   id: 'proj-2',
-  //   title: 'Medidel',
-  //   description:
-  //     'A Medicine delivery app, integrated payment page using stripe, having a admin panel',
-  //   tech: ['React', 'Express', 'MongoDB', 'Node JS','Stripe'],
-  //   github: 'https://github.com/Itz-Sudip',
-  //   live: '#home',
-  // },
+  {
+    id: 'proj-2',
+    title: 'Tomato',
+    description:
+      'A Food delivery app, integrated payment page using stripe, having a admin panel',
+    tech: ['React', 'Express', 'MongoDB', 'Node JS','Stripe'],
+    github: 'https://github.com/Itz-Sudip/Tomato',
+    live: 'https://tomato-frontend-cj8r.onrender.com/',
+  },
+  {
+    id: 'proj-3',
+    title: 'QuiZone',
+    description:
+      'A AI based quiz generator, Generates interactive exam oriented quiz from raw notes',
+    tech: ['React', 'Supabase', 'Tailwind', 'TypeScript','Gemini 2.5 flash'],
+    github: 'https://github.com/Itz-Sudip/QuiZone-project',
+    live: 'https://flashgen-maker.lovable.app/',
+  },
+  {
+    id: 'proj-4',
+    title: 'URL Shortener',
+    description:
+      'It can shorten and customize a long url according to the chice of user',
+    tech: ['React', 'Supabase', 'Tailwind', 'JavaScript','Shadcn'],
+    github: 'https://github.com/Itz-Sudip/URL-Shortener',
+    live: '#home',
+  },
 ]
 
 export const cocurricular = [
