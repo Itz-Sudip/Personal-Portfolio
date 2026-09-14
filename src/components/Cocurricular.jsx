@@ -15,7 +15,7 @@ export default function Cocurricular() {
             data-aos-delay={i * 100}
             className="rounded-xl border border-muted/15 p-6"
           >
-            <h3 className="font-display font-semibold">{item.title}</h3>
+            <h3 className="font-display font-semibold text-teal-400">{item.title}</h3>
             <p className="mt-2 text-sm text-muted sm:text-base">{item.description}</p>
           </div>
         ))}
